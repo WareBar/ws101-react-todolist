@@ -1,11 +1,11 @@
 .Header .banner .main-banner{
-	background-image: url(https://i.pinimg.com/originals/51/4f/3f/514f3fccb71047d780be491c435a79e1.gif);
-	background-position: center;
+
+	background-position: center center;
+	background-size: cover;
 	height: 150px;
 
 	border-radius: 10px 5px 10px 5px;
 }
-
 
 .Header .banner .avatar-banner{
 	height: 50px;
@@ -28,7 +28,7 @@
 
 .Header .header p{
 	color: grey;
-	width: 200px;
+	width: 250px;
 	display: flex;
 	gap: 20px;
 	transition: .3s;
