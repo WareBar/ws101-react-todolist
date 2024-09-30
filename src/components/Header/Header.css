@@ -14,6 +14,9 @@
 
 	float: right;
 	padding: 10px;
+
+	transition: .5s ease-out;
+
 }
 
 
@@ -28,4 +31,14 @@
 	width: 200px;
 	display: flex;
 	gap: 20px;
+	transition: .3s;
+}
+
+.Header .header p:hover{
+	color: whitesmoke;
+}
+
+
+.avatar-banner:hover{
+	transform: rotateZ(360deg);
 }
