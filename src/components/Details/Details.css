@@ -1,0 +1,18 @@
+.Details{
+	background-color: #332934;
+	color: whitesmoke;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+	font-weight: bold;
+
+	margin: 10px;
+}
+
+.Details p{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,47 @@
+.TodoItem{
+
+	background-color: #332934;
+	color: white;
+	margin: 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 1.1em;
+	font-weight: bold;
+	transition: .3s;
+
+}
+
+.TodoItem:hover{
+	border-left: 5px solid whitesmoke;
+}
+
+
+.TodoItem .details{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+	padding: 5px 0 ;
+}
+
+.TodoItem .controls{
+	display: flex;
+	flex-direction: column;
+}
+
+.TodoItem .controls button{
+	padding: 5px;
+	border-color: transparent;
+	margin: 2px;
+	border-radius: 2px;
+	transition: .3s;
+}
+
+
+.TodoItem .controls button:hover{
+	background-color: #252525;
+	color: whitesmoke;
+}

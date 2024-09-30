@@ -1,0 +1,26 @@
+.Form{
+	width: 95%;
+	margin: 10px auto;
+}
+
+.Form form input{
+	background-color: #332934;
+	color: whitesmoke;
+	line-height: 30px;
+	border-radius: 5px;
+	border-color: transparent;
+	width: 89%;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+.Form form button{
+	width: 30px;
+	height: 35px;
+	background-color: transparent;
+	border-color: transparent;
+	color: whitesmoke;
+	font-size: 1.2em;
+	font-weight: bolder;
+}

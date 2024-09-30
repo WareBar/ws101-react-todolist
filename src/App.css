@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+::-webkit-scrollbar-track{
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #252525;
+}
+
+*{
+  margin: 0;
+  font-family: "Calibri", sans-serif;
+}
