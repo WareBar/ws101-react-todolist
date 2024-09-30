@@ -4,7 +4,6 @@ import "./Header.css";
 export default function Header(){
 
 	let showDate = new Date();
-	// let todayDate = showDate.getDate() + "/" + showDate.getMonth() + "/" + showDate.getFullYear();
 	let todayDate = showDate.toDateString();
 	let currentTime = `${showDate.getHours()}:${showDate.getMinutes()}:${showDate.getSeconds()}`
 
