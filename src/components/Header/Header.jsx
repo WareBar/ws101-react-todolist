@@ -21,6 +21,8 @@ export default function Header(){
 		backgroundImage: links[Math.floor(Math.random() * links.length)]
 	}
 
+	
+
 	return (
 
 		<div className="Header">
