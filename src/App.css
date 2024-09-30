@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 ::-webkit-scrollbar{
   width: 0;
 }
@@ -18,3 +20,9 @@
   margin: 0;
   font-family: "Calibri", sans-serif;
 }
+
+
+body{
+  background-color: #29222A;
+}
+
