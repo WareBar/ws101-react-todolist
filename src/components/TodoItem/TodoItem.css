@@ -34,7 +34,10 @@
 
 .TodoItem .controls button{
 	padding: 5px;
+	background-color: transparent;
 	border-color: transparent;
+	color: white;
+
 	margin: 2px;
 	border-radius: 2px;
 	transition: .3s;
@@ -42,6 +45,11 @@
 
 
 .TodoItem .controls button:hover{
-	background-color: #252525;
+	background-color: purple;
+	border-radius: 100px;
 	color: whitesmoke;
+}
+
+.TodoItem .controls button:active{
+	transform: rotateZ(-45deg);
 }
