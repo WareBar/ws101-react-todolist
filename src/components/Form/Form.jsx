@@ -14,7 +14,7 @@ export default function Form({todos, setTodos}){
 		e.preventDefault();
 
 		if (todo.name.length > 8){
-			setTodos([...todos, todo]);
+			setTodos([todo, ...todos]);
 		}
 		else{
 			alert("The Character Length Should Be > 8, Please Retry")

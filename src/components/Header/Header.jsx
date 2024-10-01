@@ -7,7 +7,9 @@ export default function Header(){
 	let todayDate = showDate.toDateString();
 	let currentTime = `${showDate.getHours()}:${showDate.getMinutes()}:${showDate.getSeconds()}`
 
-	let links =  [
+
+
+	const links =  [
 		"url(https://i.pinimg.com/originals/51/4f/3f/514f3fccb71047d780be491c435a79e1.gif)",
 		"url(https://i.pinimg.com/originals/1c/91/4d/1c914d7c0f43a92c48504d9a612a8d5d.gif)",
 		"url(https://i.pinimg.com/originals/1f/3c/e3/1f3ce3f2fb77aeb542d616158e3b40a7.gif)",
@@ -34,7 +36,7 @@ export default function Header(){
 
 			</div>
 			<div class="header">
-				<h1>Hey,Barry</h1>
+				<h1>Hey, Barry</h1>
 				<p>
 					<span>{todayDate}</span>
 					<span>{currentTime}</span>
