@@ -53,3 +53,8 @@
 .TodoItem .controls button:active{
 	transform: rotateZ(-45deg);
 }
+
+
+.todo-item-checked{
+	text-decoration: line-through;
+}
