@@ -1,8 +1,9 @@
 import "./Header.css";
-
+import { useState } from 'react';
 
 export default function Header(){
 
+	// use for getting the datetime
 	let showDate = new Date();
 	let todayDate = showDate.toDateString();
 	let currentTime = `${showDate.getHours()}:${showDate.getMinutes()}:${showDate.getSeconds()}`
@@ -19,9 +20,15 @@ export default function Header(){
 		"url(https://i.redd.it/0kdjwumjadj71.gif)"
 		]
 
-	let banner = {
-		backgroundImage: links[Math.floor(Math.random() * links.length)]
+	// state variable to store banner with a picture randomly selected from links const variable
+	const [picture, setPicture] = useState(links[Math.floor(Math.random() * links.length)])
+
+	const banner = {
+		backgroundImage: picture
 	}
+
+
+
 
 	
 

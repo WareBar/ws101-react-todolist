@@ -1,6 +1,6 @@
 import "./TodoItem.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faThumbtack, faCheckToSlot, faTrashCan } from '@fortawesome/free-solid-svg-icons';
+import { faThumbtack, faThumbtackSlash, faCheckToSlot, faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 export default function TodoItem({item, todos, setTodos}){
 
@@ -31,7 +31,9 @@ export default function TodoItem({item, todos, setTodos}){
         		
         		<div class="details">
         			<i>
-        				<FontAwesomeIcon className="fontIcon" icon={faThumbtack}/>
+        				{item.done === true?
+        					<FontAwesomeIcon className="fontIcon" icon={faThumbtackSlash}/> : <FontAwesomeIcon className="fontIcon" icon={faThumbtack}/>
+        				}
         			</i>	
         			<p>{item.time}</p>
         		</div>
