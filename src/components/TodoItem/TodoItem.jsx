@@ -8,7 +8,11 @@ export default function TodoItem({item, todos, setTodos}){
 
 
 	function handleCheck(task){
-		console.log(`item ${task} is Click`)
+		setTodos(
+			todos.map((todoItem)=>todoItem.name === task.name? {...todoItem, done: !todoItem.done}: todoItem)
+			)
+
+		console.log(todos)
 
 	}
 
@@ -31,7 +35,7 @@ export default function TodoItem({item, todos, setTodos}){
         			</i>	
         			<p>{item.time}</p>
         		</div>
-        		<p>{item.name}</p>
+        		<p className={item.done === true? "todo-item-checked":""}>{item.name}</p>
 
         	</div>
 
