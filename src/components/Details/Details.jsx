@@ -7,7 +7,9 @@ export default function Details({todos}){
 		<div className="Details">
 			<p>
 				<span>Today's Task</span>
-				<span>0/{todos.length}</span>
+				<span>
+					{(todos.filter((todo)=>todo.done == true)).length}/{todos.length}
+				</span>
 			</p>
 		</div>
 
