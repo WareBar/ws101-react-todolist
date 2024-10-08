@@ -14,6 +14,21 @@
 
 }
 
+.TodoItem-done{
+	background-color: #3E3341;
+	color: black;
+	margin: 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+
+	font-size: 1.1em;
+	font-weight: bold;
+	transition: .3s;
+}
+
 
 
 
@@ -23,7 +38,7 @@
 }
 
 
-.TodoItem .details{
+.details{
 	display: flex;
 	align-items: center;
 	gap: 20px;
@@ -31,12 +46,12 @@
 	padding: 5px 0 ;
 }
 
-.TodoItem .controls{
+.controls{
 	display: flex;
 	flex-direction: column;
 }
 
-.TodoItem .controls button{
+.controls button{
 	padding: 5px;
 	background-color: transparent;
 	border-color: transparent;
@@ -48,13 +63,13 @@
 }
 
 
-.TodoItem .controls button:hover{
+.controls button:hover{
 	background-color: purple;
 	border-radius: 100px;
 	color: whitesmoke;
 }
 
-.TodoItem .controls button:active{
+.controls button:active{
 	transform: rotateZ(-45deg);
 }
 

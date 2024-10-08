@@ -26,7 +26,7 @@ export default function TodoItem({item, todos, setTodos}){
 
 	return (
 
-		<div className="TodoItem">
+		<div className={item.done === true? "TodoItem-done":"TodoItem"}>
         	<div class="left">
         		
         		<div class="details">
