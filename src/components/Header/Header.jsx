@@ -9,6 +9,7 @@ export default function Header(){
 	let currentTime = `${showDate.getHours()}:${showDate.getMinutes()}:${showDate.getSeconds()}`
 
 
+	// setInterval(()=>())
 
 	const links =  [
 		"url(https://i.pinimg.com/originals/51/4f/3f/514f3fccb71047d780be491c435a79e1.gif)",
