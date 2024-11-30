@@ -1,12 +1,12 @@
 import "./Header.css";
 import { useState } from 'react';
+import Timer from './Timer.jsx';
 
 export default function Header(){
 
 	// use for getting the datetime
 	let showDate = new Date();
 	let todayDate = showDate.toDateString();
-	let currentTime = `${showDate.getHours()}:${showDate.getMinutes()}:${showDate.getSeconds()}`
 
 
 	const links =  [
@@ -26,9 +26,6 @@ export default function Header(){
 		backgroundImage: picture
 	}
 
-
-
-
 	
 
 	return (
@@ -45,7 +42,7 @@ export default function Header(){
 				<h1>Hey, Barry</h1>
 				<p>
 					<span>{todayDate}</span>
-					<span>{currentTime}</span>
+					<span> <Timer /> </span>
 				</p>
 			</div>
 		</div>
