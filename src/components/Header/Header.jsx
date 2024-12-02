@@ -31,14 +31,14 @@ export default function Header(){
 	return (
 
 		<div className="Header">
-			<div class="banner">
+			<div className="banner">
 				
 				<div class="main-banner" style={banner}>
-					<img class="avatar-banner" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/v1/attachments/delivery/asset/bb9c6ebc1ca2de847fd9365b70f3c7d4-1681631721/Rev_Staring%20Cat%20Preview/make-simple-pixel-art-animation-gif.gif" alt="banner avatar" />					
+					<img className="avatar-banner" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/v1/attachments/delivery/asset/bb9c6ebc1ca2de847fd9365b70f3c7d4-1681631721/Rev_Staring%20Cat%20Preview/make-simple-pixel-art-animation-gif.gif" alt="banner avatar" />					
 				</div>
 
 			</div>
-			<div class="header">
+			<div className="header">
 				<h1>Hey, Barry</h1>
 				<p>
 					<span>{todayDate}</span>
